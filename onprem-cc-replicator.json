@@ -13,7 +13,7 @@
       "dest.kafka.sasl.mechanism":"PLAIN",
       "dest.kafka.request.timeout.ms":"20000",
       "retry.backoff.ms":"500",
-      "dest.kafka.sasl.jaas.config":"org.apache.kafka.common.security.plain.PlainLoginModule  required username='LD5QZYNB4CDMG6TM'  password='pQA0QPNwTnN/sjDREszTjwcm2HCe5d/1GNaVFLTgrxKw6TwIDtZkYLgoOcaWIxIc';",
+      "dest.kafka.sasl.jaas.config":"org.apache.kafka.common.security.plain.PlainLoginModule  required username='username'  password='password';",
       "dest.kafka.security.protocol":"SASL_SSL",
       "provenance.header.enable":true,
       "offset.start":"consumer",
@@ -22,13 +22,13 @@
       "confluent.topic":"_confluent-command",
       "confluent.topic.sasl.mechanism":"PLAIN",
       "confluent.topic.request.timeout.ms":"20000",
-      "confluent.topic.sasl.jaas.config":"org.apache.kafka.common.security.plain.PlainLoginModule  required username='LD5QZYNB4CDMG6TM'  password='pQA0QPNwTnN/sjDREszTjwcm2HCe5d/1GNaVFLTgrxKw6TwIDtZkYLgoOcaWIxIc';",
+      "confluent.topic.sasl.jaas.config":"org.apache.kafka.common.security.plain.PlainLoginModule  required username='username'  password='password';",
       "confluent.topic.security.protocol":"SASL_SSL",
       "confluent.topic.bootstrap.servers":"pkc-419q3.us-east4.gcp.confluent.cloud:9092",
       "producer.override.bootstrap.servers":"pkc-419q3.us-east4.gcp.confluent.cloud:9092",
       "producer.override.sasl.mechanism":"PLAIN",
       "producer.override.request.timeout.ms":"20000",
-      "producer.override.sasl.jaas.config":"org.apache.kafka.common.security.plain.PlainLoginModule  required username='LD5QZYNB4CDMG6TM'  password='pQA0QPNwTnN/sjDREszTjwcm2HCe5d/1GNaVFLTgrxKw6TwIDtZkYLgoOcaWIxIc';",
+      "producer.override.sasl.jaas.config":"org.apache.kafka.common.security.plain.PlainLoginModule  required username='username'  password='password';",
       "producer.override.security.protocol":"SASL_SSL"
    }
 }
